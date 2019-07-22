@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- hacer responsivo (crear en css @mediaquery)-->
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1, minimum-scale=1.0, user-scalable=no, shrink-to-fit=no" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>PoketMon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+   
+  </head>
+  <body>
+    <div class="contenedor">
+  <!-- cabeza de la pagina home -->
+    <header>
+      <nav>
+        <div class= "logoImg">
+            <ul><a href="index.html"><img src="img/logo poketmon.png" alt="logo_poketMon" class="logo-poketmon"></a> </ul>
+        </div>
+        
+          <div class="social-icons">
+              <!-- <div class="search-box">
+                  <input type="search" placeholder="Busca aquí tu pokemón">
+                  <span class="icon"><i class="fa fa-search"><img src="https://image.flaticon.com/icons/svg/70/70376.svg" height="20px" alt="search"></i></span>
+                </div> -->
+              <div class="social-icons img">
+                  <a href="https://www.facebook.com/PokemonGOChileComunidad/"><img src="img/face-logo.png" ></a>
+                </div>
+                <div class="social-icons img">
+                  <a href="https://www.instagram.com/pokemongochileoficial/"><img src="img/insta-logo.png" ></a>
+                </div>
+            </div>
+    </nav>
+    </header>
+    <header id ="headerInfo" class="headerInfo" style="display: block">
+      <div>
+        <h1 class= "titleOptionHome">¡Hola bienvenido a PokeTmon!</h1>
+      </div>
+      <div>
+        <h3 class="InfoHome">PokeTmon, tu plataforma de consulta para Pokemon Go!</h3>
+      </div>
+    </header>
+    <!-- contenido pantalla home -->
+   <main id="home" class="home" style="display: block" >
+      <div class = "contOptionPoketLeft">
+          <div class = "optionPoketLeft">
+              <div>
+                  <a href="#allPokemons" style="transition: all .50s linear;"><input type="button" value="poketDex" id="btnPokedex"></a>  
+                </div>
+          <!-- Opcion Poketdex -->
+          <div class= "textOptionHome">
+            <h4>Accede a los principales datos de tus Pokemones de la Generación "Kanto" y obtén la mejor información para cada batalla</h4>
+          </div>
+          </div>
+         <div class="homeImg">
+            <img src="img/PokeTdex.png" alt="PoketDexImg" class="PokeTdex">
+        </div>
+      </div>
+      <!-- Opcion PoketGo -->
+        <div class = "contOptionPoketRight">
+            <div class="homeImg">
+                <img src="img/PokeTGo.png" alt="PoketGoImg" class="PokeTGo">
+              </div>
+          <div class = "optionPoketRight">
+              <div>
+                  <button id="btnPoketGo">+poketGo</button>
+                </div>
+          <div class= "textOptionHome">
+            <h4>Pokémon Go: Tips y links para empezar a jugar, calculadoras para combates y las mejores redes para que te conectes con otros jugadores</h4>
+          </div>
+          </div>
+    </div>
+    </main>
+    <!-- pagina del Guia PoketGo -->
+    <section id="poketGo" style="display: none" >
+        <header class="headerPokeGo">
+            <div class = "nav_options">
+                <button id= "btnBackHome" class="buttonBack"><img src="https://image.flaticon.com/icons/svg/263/263085.svg" height="30px" style="float: right" alt="backHome"></button>
+                <h1 class= "titleOptionGo">PoketGo!</h1>
+                <h2 class="infoPokeGo">Guía con los mejores trucos y consejos para convertirte en un maestro</h2>
+          </div>
+        </header>
+        <!-- contenido guia PoketGo -->
+          <div class="poketGoInfos"> 
+            <img src="https://d2skuhm0vrry40.cloudfront.net/2015/articles//a/1/8/4/2/0/5/3/eurogamer-k16dvx.jpg/EG11/resize/690x-1/quality/75/format/jpg" alt="pokemonGo">
+            <h2>¿Qué es Pokémon GO?</h2>
+            <p>Desarrollado por Niantic, el estudio responsable de Ingress, Pokémon GO es un juego de realidad aumentada 
+              para dispositivos móviles que propone convertirnos en entrenadores Pokémon en el mundo real. Para ello habrá 
+              que activar la geolocalización (GPS) y la conectividad de datos en el móvil e interactuar con el mundo que nos 
+              rodea, visitando Gimnasios y Pokeparadas y cazando a ciento cincuenta Pokémon diferentes. La aplicación se 
+              encarga de seguir nuestros movimientos y nos irá avisando cuando estemos cerca de un Pokémon al que cazar.
+              Fuente: https://www.eurogamer.es/articles/trucos-guia-pokemon-go
+            </p>
+            
+            <h2>¿Cómo descargo Pokémon GO en iOS o Android?</h2>
+            <p>Pokémon GO ya está disponible en la iTunes App Store y Google Play Store de Australia, Nueva Zelanda, 
+              Estados Unidos y Japón. Si tienes un iPhone, simplemente cambia la región del teléfono a Australia o Nueva Zelanda y descárgalo usando una cuenta de iTunes para 
+              dicho país. En el caso de usar un móvil Android, puedes descargar el fichero APK e instalarlo problemas 
+              (te avisará que es una fuente desconocida, pero la que os proponemos, APKMirror, es una web fiable. Ojo 
+              con otras más dudosas, porque ya se han dado casos de ficheros APK con virus).</p>
+              <a href="https://apps.apple.com/br/app/pok%C3%A9mon-go/id1094591345"><input type="button" value="Apple Store" id="btnIOS"></a>
+              <a href="https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=pt"><input type="button" value="Google Store" id="btnAndroid"></a>
+            <h2>Cómo empezar a jugar?</h2>
+            <p>Los combates en Pokémon GO son una parte indivisible del entramado jugable de la app, 
+              si bien no son exactamente los mismos a los que estábamos acostumbrados en anteriores entregas. 
+              Niantic Lab ha decidido adaptar de forma total e inteligente estas luchas entre criaturas y 
+              entrenadores a las pantallas táctiles de nuestros dispositivos móviles. Por lo tanto, y aunque el 
+              componente estratégico sigue presente, hablamos de una lucha directa, en tiempo real, en la que nos 
+              limitaremos a dos movimientos de ataque y en la que habrá que esquivar los envites y ataques del rival.
+              Fuente: https://vandal.elespanol.com/guias/guia-pokemon-go/combate-y-gimnasios
+              </p>
+              <h2>Por dentro de los tipos</h2>
+              <p>Uno de los elementos más tradicionales de la serie y que Pokémon GO está muy bien utilizado es el sistema de tipos. 
+                  Cada Pokémon tiene uno o dos tipos, lo que garantiza ventajas y desventajas contra ciertos oponentes. Es la vieja 
+                  lógica de Jo-Ken-Po: el fuego vence a la planta, vence al agua, vence al fuego.
+                  En total, hay 18 tipos diferentes, lo que hace que todo sea un poco más complejo, pero nada complicado. Todo sigue 
+                  una lógica muy simple, así que tenga en cuenta esta relación de quién gana lo que está bien y lo que está bien. Si 
+                  golpeas a un Pokémon que tiene una desventaja contra su elemento, el daño hecho será mucho mayor. Por otro lado, 
+                  el recíproco también es cierto.</p>
+                  <img src="https://imagens.canaltech.com.br/150523.267907-Pokemon-tipos.jpg" alt="tipos de pokemones">
+            <h2>¿Cómo luchar/pelear?</h2>
+            <p>Cada Pokémon tiene dos movimientos ofensivos, uno principal y otro secundario, que se realizarán según 
+              pulsemos la pantalla. Es decir, el principal será un ataque constante, por pulsación, mientras que el 
+              segundo de mayor índice de daño necesitará de que ejerzamos cierta presión hasta que el indicador de energía 
+              este lleno al máximo.
+              <iframe src="https://www.youtube.com/embed/aflKgUWuIvQ" frameborder="0" allowfullscreen="1" class="video"></iframe>
+              <h3>Calculadoras para combate</h3>
+              <a href="https://pokemon.gameinfo.io/pt-br/tools/iv-calculator"><input type="button" value="Calculadora de IV Pokémon" id="btnCalculadora"></a>
+              <a href="https://play.google.com/store/apps/details?id=com.cjin.pokegenie.standard&hl=pt"><input type="button" value="Calculadora Poke Genie" id="btnPokeGenie"></a>
+              <button id= "btnBackHome1" class="buttonBack"><img src="https://image.flaticon.com/icons/svg/263/263085.svg" height="30px" style="float: right" alt="backHome"></button>
+            </p>
+            <h2>Otros Links</h2>
+            <p><a href="https://www.eurogamer.es/articles/pokemon-go-como-encontrar-pokemon-cerca-atraparlos-facilmente">Pokémon GO - Cómo encontrar Pokémon cercanos y atraparlos fácilmente</a><br/>Aprende a localizar criaturas y la mejor forma de capturarlas.</p>
+            <p><a href="https://www.eurogamer.es/articles/pokemon-go-plus-todo-lo-que-sabemos-reserva-precio-comprar">Pokémon GO - Todo lo que sabemos de Pokémon Go Plus</a><br/>¿Qué es y cómo puedes conseguir uno? </p>
+            <p><a href="https://www.eurogamer.es/articles/pokemon-go-equipos-valor-instinto-sabiduria-cual-es-mejor-ventajas">Pokémon GO - Equipo Valor, Instinto y Sabiduría, ¿cuál es el mejor?</a><br/>¿Tiene alguna ventaja unirse a un equipo y no a otro? </p>
+            <p><a href="https://www.eurogamer.es/articles/pokemon-go-mejor-pokemon-ataque-defensa-hp-mas-fuerte-estadisticas">Pokémon GO - Cómo conseguir el mejor Pokémon con el ataque, defensa y HP más fuertes </a><br/>¿Cuál es el mejor Pokémon de Pokémon GO? </p>
+          </div>
+    </section>
+  <!-- pagina galeria de pokemons -->
+    <section id = "allPokemons" style="display: block">
+      <header class="headerFilter">
+          <div class = "nav_options">
+              <a href="index.html" class="social-icons"><img src="img/icone filtro.png" alt="icone filtro" class="iconeFiltro"></a>
+        </div>
+        <!-- filtro orden -->
+     <div>
+      <select name="slctOrder" id= "slctFilterOrder" class="search-box">
+          <option value="Order">Eligir el orden</option> 
+          <option value="AZ">A-Z</option>
+          <option value="ZA">Z-A</option>
+          <option value="1-151">1-151</option>
+          <option value="151-1">151-1</option>
+        </select> 
+      </div>
+      <!----filtro tipos --> 
+      <div>
+      <select name="slctType" id= "slctFilterType" class="search-box">
+          <option value="Tipos">Filtrar por Tipos</option> 
+          <option value="Water">Agua</option>
+          <option value="Bug">Bicho</option>
+          <option value="Dragon">Dragon</option>
+          <option value="Electric">Electrico</option>
+          <option value="Ghost">Fantasma</option>
+          <option value="Fire">Fuego</option>
+          <option value="Ice">Hielo</option>
+          <option value="Fighting">Lucha</option>
+          <option value="Normal">Normal</option>
+          <option value="Grass">Planta</option>
+          <option value="Psychic">Psiquico</option>
+          <option value="Rock">Roca</option>
+          <option value="Ground">Tierra</option>
+          <option value="Poison">Veneno</option>
+          <option value="Flying">Volador</option>
+          </select>
+        </div>
+        <div>
+      <!-- filtro debilidad -->
+      <select name="slctWeaknesses" id= "slctFilterWeaknesses" class="search-box">
+        <option value="Debilidad">Filtrar por debilidad</option> 
+        <option value="Water">Agua</option>
+        <option value="Bug">Bicho</option>
+        <option value="Dragon">Dragon</option>
+        <option value="Electric">Electrico</option>
+        <option value="Ghost">Fantasma</option>
+        <option value="Fire">Fuego</option>
+        <option value="Ice">Hielo</option>
+        <option value="Fighting">Lucha</option>
+        <option value="Normal">Normal</option>
+        <option value="Grass">Planta</option>
+        <option value="Psychic">Psiquico</option>
+        <option value="Rock">Roca</option>
+        <option value="Ground">Tierra</option>
+        <option value="Poison">Veneno</option>
+        <option value="Flying">Volador</option>
+          </select>
+        </div>
+        <!-- filtro buscador -->
+        <!-- <div class="search-box">
+            <input type="search" placeholder="Busca aquí tu pokemón">
+            <span class="icon"><button id="btnSearch" class = "btnSearch"><img src="https://image.flaticon.com/icons/svg/70/70376.svg" height="12px" alt="search"></button></span>
+          </div> -->
+        </header>
+      <!-- <div id="pokeGallery"> -->
+        <div class="buttonBack"><!-- boton para bajo -->
+          <a href="#footer1" style="transition: all .50s linear;"><img src="https://image.flaticon.com/icons/svg/25/25623.svg" height="30px" alt="btnUp"><input type="button" id="btnDown"></a> </div>
+        <div id="pokeStats" class="pokeStats">
+        </div>
+        <!-- Div nueva con los cards -->
+        <div id="pokeList" class="row">
+      </div>
+      <!-- boton para arriba -->
+      <div><a href="#allPokemons" style="transition: all .50s linear;" class="buttonBack"><img src="https://image.flaticon.com/icons/svg/25/25223.svg" height="30px" alt="btnUp"><input type="button" id="btnUp"></a></div>
+  </section>
+  <!-- pie de la pagina -->
+    <footer>
+          <div id="footer1"><p>&copy; Copyright 2019</p></div>
+          <div class="social-icons">
+          <div class="social-icons img"> 
+              <a href="https://www.facebook.com/PokemonGOChileComunidad/"><img src="img/face-logo.png" height="50px"></a>
+            </div>
+            <div class="social-icons img">
+              <a href="https://www.instagram.com/pokemongochileoficial/"><img src="img/insta-logo.png" height="50px"></a>
+            </div>
+          </div>
+    </footer>
+  </div>
+    <!-- sources -->
+    <script src="./data/pokemon/pokemon.js"></script>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

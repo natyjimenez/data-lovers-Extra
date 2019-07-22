@@ -1,0 +1,119 @@
+@media screen and (max-width: 768px ) {
+    .logo-poketmon{
+        max-width: 60%;
+    }
+    .headerInfo{
+        background: #C5DAEA;
+        font-size: 10px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 2px 7.5px 0 rgba(51, 51, 51, 0.4);
+    }
+    .home{
+        color: #333333;
+        padding-bottom: 15px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .titleOptionHome{
+        font-size: 18px;
+        color:#333333;
+    }
+    .InfoHome{
+        font-size: 12px;
+        color:#333333;
+    }
+    .textOptionHome{
+        font-size: 12px;
+        color:#333333;
+    }
+    .contOptionPoketLeft{
+        padding-top: 10px;
+        padding-bottom: 2px;
+        text-align: left;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .optionPoketLeft{
+        padding-top: 2px;
+        text-align: left;
+        padding-right: 5px;
+    }
+    .PokeTdex {
+        height: auto;
+        width: 50%;
+      }
+      #btnPokedex{
+        font-family: sans-serif;
+        font-size: 18px;
+        color: white;
+        border: 2px solid #333333;
+        width: 150px;
+        padding: 2px;
+        cursor: pointer;
+        background-color: #0070B6;
+        margin-bottom: 5px;
+        border-radius: 20px;
+        outline: none;  
+    }
+    #btnPokedex:hover{
+        background-color: #DCDCDC;
+        color: #333333;
+    }
+    .contOptionPoketRight{
+        padding-top: 10px;
+        padding-bottom: 2px;
+        text-align: left;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .optionPoketRight{
+        padding-top: 2px;
+        text-align: left;
+        padding-right: 5px;
+    }
+    .PokeTGo {
+        height: auto;
+        width: 50%;
+      }
+    #btnPoketGo{
+        font-family: sans-serif;
+        font-size: 18px;
+        color: white;
+        border: 2px solid #333333;
+        width: 150px;
+        padding: 2px;
+        cursor: pointer;
+        background-color: #0070B6;
+        margin-bottom: 5px;
+        border-radius: 20px;
+        outline: none;  
+    }
+    #btnPoketGo:hover{
+        background-color: #DCDCDC;
+        color: #333333;
+    }
+    .headerFilter{
+        background: rgb(176, 208, 233);
+        padding-top: auto;
+        padding-bottom: auto;
+        padding-right: 100px;
+        padding-left: auto;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;  
+        box-shadow: 0 2px 7.5px 0 rgba(51, 51, 51, 0.7);
+    }
+    .iconeFiltro {
+        display: none;
+      }
+    #slctFilterWeaknesses{
+         display: none;
+     }
+}
