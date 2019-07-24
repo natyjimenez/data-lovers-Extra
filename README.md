@@ -1,3 +1,11 @@
+## ** Versión EXTRA del proyecto Data Lovers**
+
+Para completar la parte obligatoria del proyecto se realiza la versión Responsive del sitio, que se encontraba al pendiente.
+
+*(archivos modificados src/style.css y scr/mobile.css)
+
+
+
 <a  href="https://carolgmonteiro.github.io/SCL010-data-lovers/src/index.html"><img  src="https://i.ibb.co/YDTS0JQ/logo-poket-Mon-r01-02-07.png" alt="logo-poket-Mon-r01-02-07" border="0"></a>
 
 <a href="https://ibb.co/DwDNqtB"><img src="https://i.ibb.co/j3vdpTC/PokeTGo.png" alt="PokeTGo" border="0"></a>
